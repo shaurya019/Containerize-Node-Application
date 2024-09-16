@@ -41,3 +41,10 @@ CMD ["node", "index"]
 
 # attach volume
 # docker run -d --name devtest -v myvol2:/app nginx:latest
+
+# create volume
+# docker volume create VOLUMENAME
+
+# custom volume attach
+# docker run -it -v VOLUMENAME:/path DockerImageName
+# ex:path - /home/app
